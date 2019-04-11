@@ -90,10 +90,11 @@
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #0000FF;">
 </canvas>
 <script>
-      
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.font = "30px Arial";
-ctx.strokeText("FGCU", 10, 50);
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "100px Comic Sans MS";
+ctx.fillStyle = "blue";
+ctx.textAlign = "center";
+ctx.fillText("FGCU", canvas.width/2, canvas.height/2); 
       </script>
 </html>
